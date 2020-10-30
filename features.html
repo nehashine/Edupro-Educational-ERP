@@ -1,0 +1,486 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>EDUPRO</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+  <!-- Modal -->
+  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header tit-up">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Customer Login</h4>
+      </div>
+      <div class="modal-body customer-box">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs">
+          <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+          <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane active" id="Login">
+            <form role="form" class="form-horizontal">
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input class="form-control" id="email1" placeholder="Name" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-10">
+                  <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                    Submit
+                  </button>
+                  <a class="for-pwd" href="javascript:;">Forgot your password?</a>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane" id="Registration">
+            <form role="form" class="form-horizontal">
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input class="form-control" placeholder="Name" type="text">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input class="form-control" id="email" placeholder="Email" type="email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input class="form-control" id="mobile" placeholder="Mobile" type="email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input class="form-control" id="password" placeholder="Password" type="password">
+                </div>
+              </div>
+              <div class="row">             
+                <div class="col-sm-10">
+                  <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                    Save &amp; Continue
+                  </button>
+                  <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                    Cancel</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+    <!-- LOADER -->
+  <div id="preloader">
+    <div class="loader-container">
+      <div class="progress-br float shadow">
+        <div class="progress__item"></div>
+      </div>
+    </div>
+  </div>
+  <!-- END LOADER --> 
+
+    <!-- Start header -->
+  <header class="top-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/e12.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbars-host">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+         
+            <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+           
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Sign Up</span></a></li>
+                    </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End header -->
+  
+  <div class="all-title-box">
+    <div class="container text-center">
+      
+    </div>
+  </div>
+  
+    <div id="overviews" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>EDUPRO FEATURES</h3>
+                    <p class="lead">EDUPRO Educational System is one of the basic requirements of School.We have put our entire experience and school requirements in this ERP to make complete solution for School's requirements. We are not only talking good about us you can read google reviews. We have not yet stop development on this ERP, our core development team is currently working on lead generation features like drag-drop landing page designing & publishing for school events, Facebook integration to capture lead, Just Dial, Sulekha, Shiksha integrations. Our dedicated sales team will show you detail demonstration of this ERP. We are just phone call away to help you.</p>
+                </div>
+            </div><!-- end title -->
+        
+<!-----*******---->
+<section id="work-process" class="work-process bg-green">
+  <div class="work-bg-pattern d-none d-lg-inline-block"></div>
+  <!-- End Work BG Pattern -->
+  <div class="container">
+    <div class="row text-center">
+     
+      <div class="col section-heading wow fadeInDown">
+        <h1 class="heading-titel" style="color: #0000EE;">School ERP APP Features</h1>
+      </div>
+    </div>
+<!----**--->
+    <div class="row">
+      
+      <div class="col-lg-4 col-md-12 text-right">
+        <div class="mobile-app-features wow fadeInLeft" data-wow-duration="1s" >
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><h1>Dashboard Management</h1><img src="images/er2.png" width="200" height="100" alt="Academic Management ERP System" title="Academic Management ERP System"/></div>
+            <div class="details-text">Customize and manage different dashboard on different modules.</div>
+          </div>
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><h1>Attendance Entry</h1><img src="images/er3.jpg" width="200" height="100" alt="Attendance Management ERP System" title="School Attendance Management ERP System"/></div>
+            <div class="details-text">Manage and view user's attendance with a detailed report.</div>
+          </div>
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><h1>Homework Entry</h1><img src="images/er4.svg" width="200" height="100" alt="Assignment ERP Management System" title="Assignment ERP Management System"/></div>
+            <div class="details-text">Add, View and Check Homework by teachers and students/Parents.</div>
+          </div>
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><h1>Fee Management</h1><img src="images/fee1.png" width="200" height="100" alt="School ERP Finance Management System" title="School ERP Finance Management System"/></div>
+            <div class="details-text">View and Check Fee by students/parents.</div>
+          </div>
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><h1>Timetable Entry</h1><img src="images/tt2.jpg" width="150" height="100" alt="Timetable Management System" title="Timetable Management System"/></div>
+            <div class="details-text">Automated timetable for every  class and sections.</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12  wow zoomIn" data-wow-duration="1s" data-wow-delay=".2s">
+        <div class="mobile-app-features-screen"><img src="images/mo1.png" width="370" height="746"  alt="android school management software" title="School ERP System India"/></div>
+      </div>
+      <div class="col-lg-4 col-md-12 text-left">
+        <div class="mobile-app-features wow fadeInRight" data-wow-duration="1s">
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><img src="images/lo1.jpg" width="150" height="100" alt="Cloud ERP Management System" title="Cloud ERP Management System"/><h1>Location View</h1></div>
+            <div class="details-text">Separate location entries for students, teachers and other staffs</div>
+          </div>
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><img src="images/lm2.jpg" width="150" height="100" alt="Library ERP Management System" title="Library ERP Management System"/><h1>Library Management</h1></div>
+            <div class="details-text">To manage available books, its issues and returns </div>
+          </div>
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><img src="images/vt2.png" width="200" height="100" alt="Vehicle Tracking ERP System" title="Vehicle Tracking ERP System"/><h1>Vehicle Tracking</h1></div>
+            <div class="details-text">Parents can be worry-free by tracking their children's vehicle status </div>
+          </div>
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><img src="images/sms1.jpg" width="200" height="100" alt="Sms & Notifications ERP System" title="SMS and Notifications ERP System"/><h1>Circular SMS</h1></div>
+            <div class="details-text">Ease of communication with Student/Parent</div>
+          </div>
+          <div class="mobile-app-features-row">
+            <div class="titel-text"><img src="images/svt2.jpg" width="200" height="100" alt="Student Tracking ERP System" title="Student Tracking ERP System"/><h1>Student Tracking</h1></div>
+            <div class="details-text">Parents/Teachers can keep eye on their children activities</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----**********---->
+
+
+
+
+<!--**--->
+    <div class="hmv-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="inner-hmv">
+           
+            <img src="images/erp4.png" width="250" height="200" alt="Student Tracking ERP System" title="Student Tracking ERP System"/>
+            <h3>School ERP Software</h3>
+            
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="inner-hmv">
+            <img src="images/erp1.png" width="250" height="200" alt="Student Tracking ERP System" title="Student Tracking ERP System"/>
+            
+           
+            <h3>School Website Development</h3>
+            
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="inner-hmv">
+
+
+            <img src="images/erp6.png" width="250" height="200" alt="Student Tracking ERP System" title="Student Tracking ERP System"/>
+
+            <h3>Technical Support</h3>
+            
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/x3.webp');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Testimonials</h3>
+                <p>Here you can see our clients and customers reviews. </p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+              <div class="testi-meta">
+                                <img src="images/testi_01.png" alt="" class="img-fluid">
+                                <h4>James Fernando </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">” I am very happy and thankful for the opportunity to write the review. According to my opinion, ERP is a user friendly software. It is a very useful software for a school. ... They give a lot of things relating to ERP without a hesitation</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+              <div class="testi-meta">
+                                <img src="images/testi_02.png" alt="" class="img-fluid">
+                                <h4>Jacques Philips </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">“The software is very flexible in handling the academic and administration works of every educational institution. EDUPRO is highly recommended”</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+              <div class="testi-meta">
+                                <img src="images/testi_03.png" alt="" class="img-fluid ">
+                                <h4>Venanda Mercy </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">” EDUPRO is extremely client focused School Management Software. Highly responsible team with profound understanding of our requirements.Friendly useful software and also we are using in our institution. I appreciate your effort.” </p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+              <div class="testi-meta">
+                                <img src="images/testi_01.png" alt="" class="img-fluid">
+                                <h4>James Fernando </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+              <div class="testi-meta">
+                                <img src="images/testi_02.png" alt="" class="img-fluid">
+                                <h4>Jacques Philips </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+              <div class="testi-meta">
+                                <img src="images/testi_03.png" alt="" class="img-fluid">
+                                <h4>Venanda Mercy </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="parallax section dbcolor">
+        <div class="container">
+            <div class="row logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_01.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_02.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_03.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_04.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_05.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_06.png" alt="" class="img-repsonsive"></a>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>EDUPRO</h3>
+                        </div>
+                        <p> EDUPRO is a leading educational company .proper functioning of any institution depends upon the effective workflow of each department. EDUPRO ERP incorporates benefits that helps institutions to manage & perform their work efficiently.</p>   
+            <div class="footer-right">
+              <ul class="footer-links-soi">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul><!-- end links -->
+            </div>            
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+        <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+        
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@yoursite.com</a></li>
+                            <li><a href="#">www.yoursite.com</a></li>
+                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
+                            <li>+61 3 8376 6284</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+        
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. <a href="#">EDUPRO</a> <a>Educational Websites</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+  <script src="js/timeline.min.js"></script>
+  <script>
+    timeline(document.querySelectorAll('.timeline'), {
+      forceVerticalMode: 700,
+      mode: 'horizontal',
+      verticalStartPosition: 'left',
+      visibleItems: 4
+    });
+  </script>
+</body>
+</html>
